@@ -29,7 +29,7 @@
         },
         {
           "type": "apicommonsmanifest",
-          "url": "http://image.manipulation.api.apievangelist.com/definitions/image-manipulation/Image-Manipulation"
+          "url": "http://image.manipulation.apievangelist.com/api-commons-manifest.json"
         }
       ],
       "contact": [

@@ -14,7 +14,7 @@
       "humanURL": "http://image.manipulation.apievangelist.com/",
       "baseURL": "http://image.manipulation.api.apievangelist.com/definitions/image-manipulation/Image-Manipulatione",
       "tags": "image, photo, filters, resize, crop",
-      "urls": [
+      "properties": [
         {
           "type": "signup",
           "url": "https://apievangelist.3scale.net/"

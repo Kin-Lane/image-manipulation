@@ -2,46 +2,7 @@
 layout: page
 title: Image Manipulation API
 ---
-<script type="text/javascript">
-
-    var $Path = '/definitions/image-manipulation/apis.json';
-
-    $(function () {
-        window.swaggerUi = new SwaggerUi({
-            url: "http://image.manipulation.api.apievangelist.com" + $Path,
-            dom_id: "swagger-ui-container",
-            supportedSubmitMethods: ['get', 'post', 'put', 'delete'],
-            onComplete: function(swaggerApi, swaggerUi){
-            if(console) {
-                console.log("Loaded SwaggerUI")
-                }
-        
-            $('pre code').each(function(i, e) {hljs.highlightBlock(e)});
-            },
-            onFailure: function(data) {
-            if(console) {
-                console.log("Unable to Load SwaggerUI");
-                console.log(data);
-                }
-            },
-            docExpansion: "none"
-        });
-        window.swaggerUi.load();
-        
-        Docs.toggleEndpointListForResource('Screen-Capture');
-        
-    });
-</script>  
-
-<h1>Image Manipulation</h1>
-<p>This is a working project for my Image Manipulation APIs, performing various image manipulation features, if you want to use these APIs you will <a href="https://apievangelist.3scale.net/signup">need to register for an API key</a>.</p>
-<br />
-<div class="swagger-shell" style="width: 600px;"> 
-    <div id="swagger-ui-container" class="swagger-ui-wrap"></div>
-</div>
-<p>To use the API you need to <a href="https://apievangelist.3scale.net/signup">sign up for an API key</a>, use your app keys to make each call.</p>
-<p>This API is maintained by <a href="http://kinlane.com">Kin Lane</a> (<a href="https://twitter.com/kinlane">@kinlane</a>), the API Evangelist. If you have any questions, comments or there are APIs you'd like to see deployed, you can <a href="https://github.com/kinlane/image-manipulation/issues" target="_blank">submit them on this projects, Github repo issue management</a>. I use <a href="http://bit.ly/13esk6Q" target="_blank">3Scale API Infrastructure</a> to manage <a href="https://apievangelist.3scale.net/" target="_blank">access to my APIs</a>, across all parts of the <a href="http://apievangelist.com/network.html">API Evangelist network</a>.</p>
-
+<h1>hello</h1>
 <br /><br />
 <!-- 3scale -->
 <p align="center">

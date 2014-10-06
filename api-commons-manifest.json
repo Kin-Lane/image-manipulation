@@ -1,0 +1,21 @@
+{
+  "apis": [
+    {
+	  "name": "API Evangelist - Image Manipulation API",
+	  "description": "This is a working screen capture API, designed to accept URL, and return a screen capture of the URL.",
+	  "image": "https://s3.amazonaws.com/kinlane-productions/api-evangelist/t-shirts/KL_InApiWeTrust-1000.png",
+      "tags": "api evangelist, api, image, photo, filters, resize, crop",
+      "license": "http://creativecommons.org/licenses/by-sa/3.0/deed.en_US",
+      "attribution": "API Evangelist",
+      "url": "http://image.manipulation.apievangelist.com/api-commons-manifest.json",
+      "definitions": [
+        {
+          "type": "swagger",
+          "url": "http://image.manipulation.api.apievangelist.com/definitions/image-manipulation/Image-Manipulation"
+        }
+      ]
+    }
+  ],
+  "tags": "api-commons-manifest",
+  "updated": "07/09/2014"
+}

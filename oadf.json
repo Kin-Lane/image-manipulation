@@ -1,0 +1,284 @@
+{
+  "swagger": 2,
+  "info": {
+    "title": "Image Manipulation API",
+    "description": "This is a simple API that accepts a URL to an image, then applies one of several Instagram like filter, and returns manipulated image.",
+    "version": "1.0"
+  },
+  "host": "image.manipulation.api.apievangelist.com",
+  "basePath": "/v1",
+  "schemes": [
+    "http"
+  ],
+  "produces": [
+    "application/json"
+  ],
+  "paths": {
+    "/charcoal": {
+      "get": {
+        "summary": "Applies charcoal filter.",
+        "description": "Returns an image with charcoal effect applied.",
+        "operationId": "charcoal",
+        "parameters": [
+          {
+            "name": "appid",
+            "in": "query",
+            "description": "application id for application making calls",
+            "required": false,
+            "type": "string",
+            "format": "string"
+          },
+          {
+            "name": "appkey",
+            "in": "query",
+            "description": "application key for application making calls",
+            "required": false,
+            "type": "string",
+            "format": "string"
+          },
+          {
+            "name": "url",
+            "in": "query",
+            "description": "public url of image to be converted",
+            "required": false,
+            "type": "string",
+            "format": "string"
+          },
+          {
+            "name": "radius",
+            "in": "query",
+            "description": "radius setting for image filter",
+            "required": false,
+            "type": "string",
+            "format": "string"
+          },
+          {
+            "name": "sigma",
+            "in": "query",
+            "description": "sigma setting for image filter",
+            "required": false,
+            "type": "string",
+            "format": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Image Manipulation",
+            "schema": {
+              "$ref": "Image"
+            }
+          },
+          "default": {
+            "description": "Unexpected error",
+            "schema": {
+              "$ref": "Error"
+            }
+          }
+        }
+      }
+    },
+    "/oilpainting": {
+      "get": {
+        "summary": "Applies oil painting filter.",
+        "description": "Returns an image with oil painting effect applied.",
+        "operationId": "oilpainting",
+        "parameters": [
+          {
+            "name": "appid",
+            "in": "query",
+            "description": "application id for application making calls",
+            "required": false,
+            "type": "string",
+            "format": "string"
+          },
+          {
+            "name": "appkey",
+            "in": "query",
+            "description": "application key for application making calls",
+            "required": false,
+            "type": "string",
+            "format": "string"
+          },
+          {
+            "name": "url",
+            "in": "query",
+            "description": "public url of image to be converted",
+            "required": false,
+            "type": "string",
+            "format": "string"
+          },
+          {
+            "name": "radius",
+            "in": "query",
+            "description": "radius setting for image filter",
+            "required": false,
+            "type": "string",
+            "format": "string"
+          },
+          {
+            "name": "sigma",
+            "in": "query",
+            "description": "sigma setting for image filter",
+            "required": false,
+            "type": "string",
+            "format": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Image Manipulation",
+            "schema": {
+              "$ref": "Image"
+            }
+          },
+          "default": {
+            "description": "Unexpected error",
+            "schema": {
+              "$ref": "Error"
+            }
+          }
+        }
+      }
+    },
+    "/polaroid": {
+      "get": {
+        "summary": "Applies polaroid filter.",
+        "description": "Returns an image with polaroid effect applied.",
+        "operationId": "polaroid",
+        "parameters": [
+          {
+            "name": "appid",
+            "in": "query",
+            "description": "application id for application making calls",
+            "required": false,
+            "type": "string",
+            "format": "string"
+          },
+          {
+            "name": "appkey",
+            "in": "query",
+            "description": "application key for application making calls",
+            "required": false,
+            "type": "string",
+            "format": "string"
+          },
+          {
+            "name": "url",
+            "in": "query",
+            "description": "public url of image to be converted",
+            "required": false,
+            "type": "string",
+            "format": "string"
+          },
+          {
+            "name": "radius",
+            "in": "query",
+            "description": "radius setting for image filter",
+            "required": false,
+            "type": "string",
+            "format": "string"
+          },
+          {
+            "name": "sigma",
+            "in": "query",
+            "description": "sigma setting for image filter",
+            "required": false,
+            "type": "string",
+            "format": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Image Manipulation",
+            "schema": {
+              "$ref": "Image"
+            }
+          },
+          "default": {
+            "description": "Unexpected error",
+            "schema": {
+              "$ref": "Error"
+            }
+          }
+        }
+      }
+    },
+    "/sketch": {
+      "get": {
+        "summary": "Applies sketch filter.",
+        "description": "Returns an image with sketch effect applied.",
+        "operationId": "sketch",
+        "parameters": [
+          {
+            "name": "appid",
+            "in": "query",
+            "description": "application id for application making calls",
+            "required": false,
+            "type": "string",
+            "format": "string"
+          },
+          {
+            "name": "appkey",
+            "in": "query",
+            "description": "application key for application making calls",
+            "required": false,
+            "type": "string",
+            "format": "string"
+          },
+          {
+            "name": "url",
+            "in": "query",
+            "description": "public url of image to be converted",
+            "required": false,
+            "type": "string",
+            "format": "string"
+          },
+          {
+            "name": "radius",
+            "in": "query",
+            "description": "radius setting for image filter",
+            "required": false,
+            "type": "string",
+            "format": "string"
+          },
+          {
+            "name": "sigma",
+            "in": "query",
+            "description": "sigma setting for image filter",
+            "required": false,
+            "type": "string",
+            "format": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Image Manipulation",
+            "schema": {
+              "$ref": "Image"
+            }
+          },
+          "default": {
+            "description": "Unexpected error",
+            "schema": {
+              "$ref": "Error"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "Image": {
+      "name": "Image",
+      "description": "This is the path of the returned image",
+      "type": "string",
+      "format": "string"
+    },
+    "Error": {
+      "name": "default",
+      "description": "",
+      "type": "string",
+      "format": "string"
+    }
+  }
+}

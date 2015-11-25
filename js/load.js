@@ -40,7 +40,7 @@ var $login = getUrlVar('login');
 	    onFailure: function(data) {
 	      log("Unable to Load SwaggerUI");
 	    },
-	    docExpansion: "none",
+	    docExpansion: "list",
 	    sorter : "alpha"
 	  });
 

@@ -1,5 +1,5 @@
 {
-  "swagger": 2,
+  "swagger": "2.0",
   "info": {
     "title": "Image Manipulation API",
     "description": "This is a simple API that accepts a URL to an image, then applies one of several Instagram like filter, and returns manipulated image.",
@@ -63,15 +63,12 @@
         ],
         "responses": {
           "200": {
-            "description": "Successful Image Manipulation",
+            "description": "successful image manipulation response",
             "schema": {
-              "$ref": "Image"
-            }
-          },
-          "default": {
-            "description": "Unexpected error",
-            "schema": {
-              "$ref": "Error"
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/image"
+              }
             }
           }
         }
@@ -126,15 +123,12 @@
         ],
         "responses": {
           "200": {
-            "description": "Successful Image Manipulation",
+            "description": "successful image manipulation response",
             "schema": {
-              "$ref": "Image"
-            }
-          },
-          "default": {
-            "description": "Unexpected error",
-            "schema": {
-              "$ref": "Error"
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/image"
+              }
             }
           }
         }
@@ -189,15 +183,12 @@
         ],
         "responses": {
           "200": {
-            "description": "Successful Image Manipulation",
+            "description": "successful image manipulation response",
             "schema": {
-              "$ref": "Image"
-            }
-          },
-          "default": {
-            "description": "Unexpected error",
-            "schema": {
-              "$ref": "Error"
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/image"
+              }
             }
           }
         }
@@ -252,15 +243,12 @@
         ],
         "responses": {
           "200": {
-            "description": "Successful Image Manipulation",
+            "description": "successful image manipulation response",
             "schema": {
-              "$ref": "Image"
-            }
-          },
-          "default": {
-            "description": "Unexpected error",
-            "schema": {
-              "$ref": "Error"
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/image"
+              }
             }
           }
         }
@@ -268,17 +256,14 @@
     }
   },
   "definitions": {
-    "Image": {
-      "name": "Image",
-      "description": "This is the path of the returned image",
-      "type": "string",
-      "format": "string"
-    },
-    "Error": {
-      "name": "default",
-      "description": "",
-      "type": "string",
-      "format": "string"
+    "image": {
+        "properties": {
+            "image": {
+                "type": "string",
+                "format": "string",
+                "description": "URL of image screen capture"
+            }
+        }
     }
   }
 }

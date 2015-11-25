@@ -1,4 +1,4 @@
-image-manipulation
+Image Manipulation API  
 ==================
 
-An image manipulation API project.
+This is my image manipulation API.

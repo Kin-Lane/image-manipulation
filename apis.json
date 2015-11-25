@@ -5,7 +5,7 @@
   "url": "http://image.manipulation.apievangelist.com/",
   "created": "04/07/2014",
   "modified": "07/09/2014",
-  "SpecificationVersion": "0.14",  
+  "SpecificationVersion": "0.14",
   "apis": [
     {
 	  "name": "API Evangelist - Image Manipulation API",
@@ -16,20 +16,8 @@
       "tags": "image, photo, filters, resize, crop",
       "properties": [
         {
-          "type": "signup",
-          "url": "https://apievangelist.3scale.net/"
-        },
-        {
-          "type": "swagger",
-          "url": "http://image.manipulation.api.apievangelist.com/definitions/image-manipulation/Image-Manipulation"
-        },
-        {
-          "type": "blog",
-          "url": "http://image.manipulation.apievangelist.com/blog/"
-        },
-        {
-          "type": "apicommonsmanifest",
-          "url": "http://image.manipulation.apievangelist.com/api-commons-manifest.json"
+          "type": "Swagger",
+          "url": "http://Kin-Lane.github.io/image-manipulation/oadf.json"
         }
       ],
       "contact": [
@@ -41,32 +29,7 @@
       ]
     }
   ],
-  "include": [
-    {
-      "name": "API Evangelist - Products",
-      "url": "http://products.apievangelist.com/apis.json"
-    },
-    {
-      "name": "API Evangelist - Image Manipulation",
-      "url": "http://image.manipulation.apievangelist.com/apis.json"
-    },
-    {
-      "name": "API Evangelist - Screen Capture",
-      "url": "http://screen-capture.apievangelist.com/apis.json"
-    },
-    {
-      "name": "API Evangelist - API Ideas",
-      "url": "http://ideas.apievangelist.com/apis.json"
-    },
-    {
-      "name": "Public Private Sector",
-      "url": "http://publicprivatesector.org/apis.json"
-    },
-    {
-      "type": "API Commons",
-      "url": "http://apicommons.org/apis.json"
-    }
-  ],
+  "include": [],
   "maintainer": [
     {
       "name": "Kin",

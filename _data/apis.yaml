@@ -1,5 +1,10 @@
 - name: Kin Lane Image Manipulation API
-  description: ""
+  description: I do a lot of playing around with images, and needed an API to start
+    hanging the resources I was creating. First I wanted to use ImageMagick to create
+    some filters that I could quickly apply to images. Next I will be doing a bunch
+    of resizing, cropping, and other resources that can help when working with images.
+    This API will expand with new endpoints as I have them. If there is an API you'd
+    like to see let me know, and I'll see what I can do.
   image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-image-manipulation.png
   x-open-ranking: "0"
   tags:

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
 	"name": "Curated API",
 	"description": "As I look through the thousands of tweets, blog posts, and other items I read from across the API space, I curate them as part of my regular research. I put them into each research bucket, and make them availble via each reserch project. You can access via this API, and use in real-time as I curate and manage each week.",
@@ -7,14 +8,25 @@
 	"created": "2016-04-04",
 	"modified": "2016-04-04",
 	"url": "https://kin-lane.github.io/curated/",
+=======
+[{
+	"name": "Kin Lane Image Manipulation API",
+	"description": "I do a lot of playing around with images, and needed an API to start hanging the resources I was creating. First I wanted to use ImageMagick to create some filters that I could quickly apply to images. Next I will be doing a bunch of resizing, cropping, and other resources that can help when working with images. This API will expand with new endpoints as I have them. If there is an API you'd like to see let me know, and I'll see what I can do.",
+	"image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-image-manipulation.png",
+	"x-open-ranking": "0",
+	"tags": ["Kin Lane Image Manipulation API"],
+	"created": "2016-04-05",
+	"modified": "2016-04-05",
+	"url": "https://kin-lane.github.io/image-manipulation/"
+>>>>>>> origin/gh-pages
 	"specificationVersion": "0.14",
 	"apis": [{
-		"name": "Kin Lane Curated",
-		"description": "<p>As I look through the thousands of tweets, blog posts, and other items I read from across the API space, I curate them as part of my regular research. I put them into each research bucket, and make them availble via each reserch project. You can access via this API, and use in real-time as I curate and manage each week.</p>",
+		"name": "Kin Lane Image Manipulation API",
+		"description": "This is my master org.",
 		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/kin.png",
-		"humanURL": "https://kin-lane.github.io/curated/",
-		"baseURL": "https://kin-lane.github.io/curated/",
-		"tags": ["Kin Lane Curated APi"],
+		"humanURL": "",
+		"baseURL": "",
+		"tags": ["Kin Lane Image Manipulation API"],
 		"properties": [{
 			"type": "x-openapi-spec",
 			"url": "api-commons/openapi-spec.json"
@@ -110,7 +122,7 @@
 	}],
 	"include": [{
 		"name": "Parent",
-		"url": "https://kin-lane.github.io/curated//apis.yaml"
+		"url": "https://kin-lane.github.io/image-manipulation//apis.yaml"
 	}],
 	"maintainers": [{
 		"FN": "Kin Lane",
